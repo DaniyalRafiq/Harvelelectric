@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- AOS Animation-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="">
+    <title>Harvel Electric</title>
+  </head>
+  <body>
+    <nav class="navbar   fixed-top navbar-expand-lg navbar-light py-3 bg-light">
+      <div class="container">
+        <img src="assets/images/brandlogo/Harvel electric  IN RED.png"  class="f-logo" alt="">
+        <button class="navbar-toggler bar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span  ><i class="fa-solid bar-i  fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " href="Shope.html">Shops</a>
+            </li>
+          
+             <li class="nav-item">
+              <a class="nav-link  " href="Contact.html">Contact us </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " href="Signup.html" data-bs-toggle="modal" data-bs-target="#exampleModal">Log Out</a>
+            </li>
+            <!-- <li class="nav-item active ">
+              <i class="fa  item fa-magnifying-glass"></i>
+              <i class="fa  item fa-bag-shopping"></i>
+            </li>
+             -->
+        </div>
+      </div>
+    </nav>
+    <!-- modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><span class="text-danger" > Log-out Alert !</span>  </h5>
+            <i  class="btn-close  fa-solid fa-xmark" data-bs-dismiss="modal" aria-label="Close"></i>
+          </div>
+          <div class="modal-body">
+            <H5>  Really want to Log-out? </H5>
+          </div>
+          <div class="modal-footer">
+             <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> No  </button>
+           <a href="Signup.html"><button type="button" class="btn btn-secondary"  onclick="myfun()" >Yes    </button> </a> 
+          </div>
+        </div>
+      </div>
+    </div>
+   
+      <div id="carouselExampleSlidesOnly" class="carousel nice " data-aos="fade-right"   data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/carousel/poster Refrigerator 1.jpg" class="d-block w-100 img-fluid c-img " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/carousel/poster  fan 1.jpg" class="d-block w-100 img-fluid c-img " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/carousel/poster ac 1.jpg" class="d-block w-100 img-fluid c-img "  alt="...">
+          </div>
+        </div>
+      </div>
+      <section id="brand logo" class="container" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
+        <div class="row m-o py-5">
+          <img class="img-fluid col-lg-2 col-md-4 col-6" src="assets/images/brandlogo/royal logo.png" alt="">
+          <img class="img-fluid col-lg-2 col-md-4 col-6" src="assets/images/brandlogo/skfan logo.png" alt="">
+          <img class="img-fluid col-lg-2 col-md-4 col-6" src="assets/images/brandlogo/superasialogo.png" alt="">
+          <img class="img-fluid col-lg-2 col-md-4 col-6" src="assets/images/brandlogo/pel logo.png" alt="">
+          <img class="img-fluid col-lg-2 col-md-4 col-6" src="assets/images/brandlogo/haierlogo.png" alt="">
+          <img class="img-fluid col-lg-2 col-md-4 col-6" src="assets/images/brandlogo/dawlance logo.png" alt="">
+          
+        </div>
+      </section>
+<section id="new" class="w-100  " >
+   <div class="row p-0 m-0  " >
+     <div class="one  col-lg-4 col-md-12 col-12 p-0" onclick="Myfun()"   data-aos="fade-right"
+     data-aos-offset="100"
+     data-aos-easing="ease-in-sine">
+      <img class="img-fluid" src="assets/images/New/fan1.png" alt="">
+      <div class="details">
+        <h2>Fans</h2>
+        <button class="text-uppercase">Shop now</button>
+      </div>
+     </div>
+     <div class="one col-lg-4 col-md-12 col-12 p-0" onclick="Myfum()" data-aos="fade-right"
+     data-aos-offset="200"
+     data-aos-easing="ease-in-sine"  >
+      <img class="img-fluid" src="assets/images/New/Refrigerator.png" alt="">
+      <div class="details">
+        <h2>Freezers</h2>
+        <button class="text-uppercase">Shop now</button>
+      </div>
+     </div>
+     <div class="one col-lg-4 col-md-12 col-12 p-0" onclick="myfun()" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" >
+      <img class="img-fluid" src="assets/images/New/ac.png" alt="">
+      <div class="details">
+        <h2 style="margin-right: 0px;">Air Conditioner </h2>
+        <button class="text-uppercase">Shop now</button>
+      </div>
+     </div>
+   </div>
+</section>
+
+<section id="featured  " class="my-5 pb-5 container ">
+  <div class="container text-center mt-5 py-5" data-aos="fade-up"
+  data-aos-anchor-placement="bottom-bottom" >
+    <h2>OUR FEATURED </h2>
+    <hr>
+    <h4>Here you can check out new products with fair price</h4>
+    <div  data-aos="fade-left"  class="show-more wow "   >
+    <h5     > <a href="Shop2.html">
+      Show more  <i class="fa-solid fa-arrow-right"></i>
+    </a>  </h5>
+  </div>
+  </div>
+   
+   
+
+    <div class="row max-out "    >
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src="assets/images/shop2/fans 1.png" alt="">
+        <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="p-name">Royal Smart Ornament AC Inverter Ceiling Fan </h5>
+        <h4 class="p-price">Rs.11,595.00</h4>
+        <a class="buy-btn" href="shopeproduct2/Fansproduct1.html"><button>Buy Now</button></a>
+      </div>
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+      <img class="img-fluid mb-3" src="assets/images/shop2/03-Fans-12.jpg" alt="">
+      <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+      </div>
+      <h5 class="p-name">Passion</h5>
+      <h4 class="p-price">Rs.9,350.00</h4>
+      <a class="buy-btn" href="shopeproduct2/Fansproduct7.html"><button>Buy Now</button></a>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+      <img class="img-fluid mb-3" src="assets/images/shop2/ACDC Ceiling Fan.png" alt="">
+      <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+      </div>
+      <h5 class="p-name">AC/DC Ceiling Fan</h5>
+      <h4 class="p-price">Rs.8,195.00</h4>
+      <a class="buy-btn"  href="shopeproduct2/Fansproduct10.html"><button> Buy Now</button></a>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+      <img class="img-fluid mb-3" src="assets/images/shop2/fans 4.png" alt="">
+      <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+      </div>
+      <h5 class="p-name">Royal Smart Regency ACDC MOTIF - Ceiling Fans </h5>
+      <h4 class="p-price">Rs.7,195.00</h4>
+     <a class="buy-btn" href="shopeproduct2/Fansproduct3.html"><button>Buy Now</button></a>
+    </div>
+  </div>
+          
+  </div>
+</section>
+
+<section class="banner my-5  py-5 " style="background-image: url('assets/images/New/fridgh.png');" >
+  <div class="container bold text-uppercase " data-aos="fade-right"  >
+    <h4>
+      Mid Session,s Sale
+    </h4>
+    <h1>
+      Summer <span style="color: #8D0E13 " >Collection</span>  <br>
+      up to 20%  of<span style="color: #8D0E13 ">f</span> 
+    </h1>
+    <div class="text-uppercase">
+    <a href="Shope.html">   <button>Shop now</button> </a>
+    </div>
+  </div>
+ 
+</section>
+<section id="featured " class="my-5 pb-5 container ">
+  <div class="container text-center mt-5 py-5">
+    <!-- <h2 class="text-uppercase" >refrigerators </h2>
+    <hr>
+    <h4>Here you can check out new products with fair price</h4> -->
+    <h5    class="show-more" data-aos="fade-left"  > <a href="Shope.html">
+      Show more  <i class="fa-solid fa-arrow-right"></i>
+    </a>  </h5>
+  </div>
+  <div class="row max-out ">
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+      <img class="img-fluid mb-3" src="assets/images/shop/haier 1.jpg" alt="">
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <h5 class="p-name">HRF-748KG SBS</h5>
+      <h4 class="p-price">₨.150,000.00</h4>
+       <a class="buy-btn" href="shopeproduct/Refrigeratorproduct5.html"><button >Buy Now</button></a>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+      <img class="img-fluid mb-3" src="assets/images/shop/pel 4.jpg">
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <h5 class="p-name">PEL Glass Door 2200 - Red Blaze</h5>
+      <h4 class="p-price">Rs.52,500.00</h4>
+       <a class="buy-btn" href="shopeproduct/Refrigeratorproduct12.html"><button >Buy Now</button></a>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+      <img class="img-fluid mb-3" src="assets/images/shop/Avante-Green.png">
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <h5 class="p-name">REF 9193 WB AVANTE+</h5>
+      <h4 class="p-price">Rs.83,000.00</h4>
+       <a class="buy-btn" href="shopeproduct/Refrigeratorproduct1.html"><button >Buy Now</button></a>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+      <img class="img-fluid mb-3" src="assets/images/shop/fw-600x549.png" alt="">
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <h5 class="p-name">SBS 600 INV</h5>
+      <h4 class="p-price">Rs.182,000.00</h4>
+       <a class="buy-btn" href="shopeproduct/Refrigeratorproduct3.html"><button >Buy Now</button></a>
+    </div>
+  </div>
+</section>
+<section id="featured  " class="my-4 pb-4 container ">
+  <!-- <div class="container text-center mt-4 py-4">
+    <h2 class="text-uppercase" >Best air conditioning </h2>
+    <hr>
+    <h4>Here you can check out new products with fair price</h4> -->
+      <h5    class="show-more" data-aos="fade-left"  > <a href="Shope3.html">
+      Show more  <i class="fa-solid fa-arrow-right"></i>
+    </a>  </h5>
+  </div>
+  <div class="row max-out container-fluid">
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+      <img class="img-fluid mb-3" src="assets/images/shop3/HSU-12HFPWUSDC (B).jpg" alt="">
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <h5 class="p-name">HSU-12HFP/WUSDC (B) Pearl Inverter</h5>
+      <h4 class="p-price">Rs.84,900.00</h4>
+       <a class="buy-btn" href="shopeproduct3/Airconditioningproduct11.html"><button >Buy Now</button></a>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+      <img class="img-fluid mb-3" src="assets/images/shop3/Chrome Plus Inverter 30.jpg" alt="">
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <h5 class="p-name">Chrome Plus Inverter 30</h5>
+      <h4 class="p-price">Rs.117,000.00</h4>
+       <a class="buy-btn" href="shopeproduct3/Airconditioningproduct8.html"><button >Buy Now</button></a>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+      <img class="img-fluid mb-3" src="assets/images/shop3/pel5.jpg" alt="">
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <h5 class="p-name">Panasonic Inverter  (H&C)</h5>
+      <h4 class="p-price">Rs.178,900.00</h4>
+       <a class="buy-btn" href="shopeproduct3/Airconditioningproduct3.html"><button >Buy Now</button></a>
+    </div>
+       <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid mb-3" src="assets/images/shop3/ENERCON 30.jpg" alt="">
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">ENERCON 30</h5>
+              <h4 class="p-price">Rs.108,700.00
+              </h4>
+               <a class="buy-btn" href="shopeproduct3/Airconditioningproduct7.html"><button
+                >Buy Now</button></a>
+            </div>
+  </div>
+</section>
+
+<footer class="mt-5 py-5" >
+  <div class="row mx-auto container pt-5 ">
+    <div class="footerone col-lg-3 col-md-6 col-12 ">
+      <img src="assets/images/brandlogo/Harvel electric  IN RED.png"  class="f-logo" alt="">
+      <br> <br>
+      <p>
+        Project form aptech our team made it for selling other brands things like Fans, Refrigerators & Air conditioning..
+      </p>
+      <br>
+      <h5 style="color:#8D0E13;" class="pb-2">Opening Hours</h5>
+      <p> Everyday</p> 
+      <p>11:00Am-10:00Pm</p>
+    </div>
+    <div class="footerone col-lg-3 col-md-6 col-12  ">
+      <h5  style="color:#8D0E13;" class="pb-2" >
+        Featured
+      </h5>
+      <ul class=" list-unstyled text-uppercase " >
+        <li> <a href="Shop2.html">Fans</a></li>
+       <li> <a href="Shope3.html">Air conditioning </a></li>
+       <li> <a href="Shope.html">Refrigerators</a></li>
+         <br>
+         <h5  style="color:#8D0E13;"class="" > Brandes  </h5>
+         <li> <a href="https://www.dawlance.com.pk/">Dawlance</a></li>
+         <li> <a href="https://www.haier.com/pk/?spm=pk.28276_pad.header_logo_20190530.1"> Haier </a></li>
+         <li> <a href="https://eshop.pel.com.pk/"> Pel </a></li>
+         <li> <a href="https://superasiastore.com/"> super asias </a></li>
+         <li> <a href="https://skfans.com.pk/">sk fans</a></li>
+         <li> <a href="https://royalfans.com/">royal fans</a></li>
+      </ul>
+    </div>
+    <div class="footerone col-lg-3 col-md-6 col-12  ">
+      <h5  style="color:#8D0E13;">
+        Contact us 
+      </h5>
+      <h6> Adress </h6>
+      <p> Garden Rd, Saddar Karachi, Karachi City, Sindh   </p>
+      <h6> Phone </h6>
+      <p> 031 23456789 
+        <br> 0309 2479876
+      </p>
+      <h6 > Email</h6>
+      <p>anus2201c@aptechgdn.net <br>
+        daniyal2201@captechgdn.net  </p>
+      
+    </div>
+    <div  class="footerone col-lg-3 col-md-6 col-12 " >  
+    
+        <h5  style="color:#8D0E13;">
+          Location
+        </h5>
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="275" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Saddar%20Electronics&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount</a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:275px;}</style><a href="https://www.embedgooglemap.net">google map code</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:275px;}</style></div></div>
+      </div>
+    
+
+    
+  </div>
+  <div class="copyright mt-5">
+    <div class="row container mx-auto">
+      <!-- <div class="col-lg-3  pay col-md-6 col-12  ">
+        <i class="fa-brands fa-cc-paypal"></i>
+        <i class="fa-brands fa-google-pay"></i>
+
+
+      </div> -->
+      <div class="col-lg-3 col-md-6 col-12 text-nowrap text-uppercase">
+        <p>
+          <span>Harvel Electric</span> Commerce 2022. All Rights Reserved
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12  ">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/harvelelectric/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+      </div>
+    </div>
+  </div>
+</footer>
+ <!-- AOS Animation-->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script>
+      function Myfun() {
+        window.open("Shop2.html")
+      }
+      function myfun() {
+        window.open("Shope3.html")
+      }
+      function Myfum() {
+        window.open("Shope.html")
+      }
+      AOS.init();
+    </script>
+  </body>
+</html>

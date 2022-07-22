@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <script src="js-image-zoom.js"></script>
+  <style>
+    .img-container {
+      margin-top: 100px;
+    }
+    .img1-container {
+      margin-top: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="img-container" style="width:400px ; ">
+    <img style="width:500px;" src="/images/preset8.JPG" alt="">
+  </div>
+  <div class="img1-container" style="width: 400px;  position: relative; ">
+    <img style="width: 500px;" src="/zoom/img3.jpg" alt="">
+  </div>
+  <script>
+    var options = {
+      width: 400,
+      marginTop: 500,
+      height: 350,
+      zoomWidth: 900,
+      offset: { vertical: 0, horizontal: 10 },
+      scale: .99
+    }
+    new ImageZoom(document.querySelector(".img-container"), options);
+
+    var options1 = {
+      width: 400,
+      height: 300,
+      
+      zoomwidth: 900,
+      offset: { vertical: 0, horizontal: 10 },
+      scale: .99
+
+    }
+
+    new ImageZoom(document.querySelector(".img1-container"), options1);
+
+
+
+  </script>
+
+</body>
+
+</html>

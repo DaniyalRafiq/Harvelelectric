@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../assets/images/logo.png" type="">
+    <title>Harvel Electric</title>
+
+  <Style>
+body{
+cursor: auto;
+}
+/* 
+    .fa-xmark{
+      transition: 0.1s all;
+      font-size: 20px;
+    }
+    .fa-xmark:hover{
+      color: #8D0E13;
+      transform: scale(1.1);
+      
+    }
+    .main{
+      text-align: center;
+      box-shadow: black 0px 10px 20px ;
+    } */
+
+    .samll-img-group {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .small-img-col {
+      display: flex;
+      justify-content: space-between;
+    }
+    .sproduct select{
+      display: block;
+      padding: 5px 10px;
+
+    }
+    .sproduct input{
+      width: 50px;
+      height: 40px;
+      padding-left:10px ;
+      font-size: 16px;
+      margin-right:10px ;
+
+    }
+    .sproduct input:focus{
+      outline: none;
+    }
+  .buy-btn{
+    background-color: rgb(0, 0, 0);
+    border:solid 1px black ;
+    transition: 0.3s all;
+    color: white;
+    margin-bottom: 7px;
+    margin-right: 10px;
+  }
+  .buy-btn:hover{
+    color: white;
+    background-color: #8D0E13;
+
+  }
+  .btn-1{
+    border: none;
+    background: none;
+    color: black;
+    width: 1px;
+    float: r;
+  }
+  .btn-1:hover{
+    background: none;
+  }
+/* .mian-1{
+  background-color: rgb(255, 255, 255);
+  box-shadow: black 0px 10px 20px ;
+
+
+} */
+#file::-webkit-file-upload-button{
+	visibility: hidden;
+}
+#file , input[type=button] , #Color{
+	width: 90%;
+	height: 70px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 17px;
+	border: 1px solid #000;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.2);
+	color: #fff;
+	transition: .5s all;
+}
+#file{
+	width: 84%;
+	height: 55px;
+	padding-top: 23px;
+	padding-left: 20px;
+}
+#file:hover , input[type=button], #Color{
+  background-color: rgba(0, 0, 0, 0.705);
+
+}
+#file:hover , input[type=button]:hover , #Color:hover{
+	cursor: pointer;
+	background-color: #8D0E13;
+}
+  .modal{
+background-color: rgba(0, 0, 0, 0.7);
+  }
+  @media   screen and (max-width:999px) {
+  .main-1{
+display: none;
+    }
+  }
+  </Style>
+
+</head>
+
+<body>
+  <nav class="navbar   fixed-top navbar-expand-lg navbar-light py-3 bg-light">
+    <div class="container">
+      <img src="../assets/images/brandlogo/Harvel electric  IN RED.png" class="f-logo" alt="">
+      <button class="navbar-toggler bar" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span><i class="fa-solid bar-i  fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger " href="../Shope.html">Shops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link   " href="../contac.html">About us </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Contact</a>
+          </li>
+          <li class="nav-item active ">
+            <i class="fa  item fa-magnifying-glass"></i>
+            <i class="fa  item fa-bag-shopping"></i>
+          </li>
+
+      </div>
+    </div>
+  </nav>
+  <section class="container sproduct my-5 pt-5">
+    <div class="row mt-5">
+    
+      <div class="col-lg-5 main  col-md-12">
+          <br>
+        <img class="img-fluid w-100 pb-1" src="../assets/images/shop/haier 2.jpg" alt="">
+        <!-- <div class="samll-img-group">
+          <div class="small-img-col">
+            <img src="assets/images/shop/Avante-Green.png" width="100%" class="small-img" alt="">
+          </div>
+          <div class="small-img-col">
+            <img src="assets/images/shop/Avante-Green.png" width="100%" class="small-img" alt="">
+          </div>
+          <div class="small-img-col">
+            <img src="assets/images/shop/Avante-Green.png" width="100%" class="small-img" alt="">
+          </div>
+          <div class="small-img-col">
+            <img src="assets/images/shop/Avante-Green.png" width="100%" class="small-img" alt="">
+          </div>
+        </div> -->
+      </div>
+
+      <div   class="col-lg-6 mian-1  col-md-12 col-12 ">
+        <h6 style="color: rgba(0, 0, 0, 0.705);" >Home / Refrigerator</h6>
+        <h2 class="py-4" style="color:#8D0E13;">HRF-438IFPA Digital Inverter</h2>
+        <h3 >Rs<span>.92,600.00</span> </h3>
+        <input class="my-3" type="number" value="1">
+        <button type="button"   class="btn buy-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Buy now 
+        </button>
+        <form>
+          <a href="../assets/images/price list/price list refrigerator2.pdf" download="">
+            <input type="button" class=" buy-btn"  value="Download">
+          </a>
+        </form>
+        <h3 style="color:#8D0E13;" class="mt-3 mb-3">Product Details </h3>
+        <div class="row "  >
+          <div class="col">  Nature Lock Technology <br> 
+            5 Way cooling + 30% faster cooling <br>
+            Optimised with Deodorising Filter<br>
+            Side Illumination LED <br>
+            Inverter compressor technology
+            A++ Energy Rating<br>
+             <br>
+             <br>
+            </div>
+          <div class="col">
+            55% Less electricity consumption<br>
+            Optimised Door Pockets<br>
+            12 years warranty<br>
+            1 year extended warranty
+            <br>
+            You can therefore store fruits and vegetables under ideal humidity conditions for up to 20 days.
+            </div>
+        </div>
+    </div>
+  </section>
+  
+  <section id="featured " class="my-3 pb-3 container ">
+    <div class="container text-center mt-3 py-3">
+      <!-- <h2 class="text-uppercase" >refrigerators </h2>
+      <hr>
+      <h4>Here you can check out new products with fair price</h4> -->
+    <div class="row max-out ">
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src="../assets/images/shop/haier 1.jpg" alt="">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="p-name">HRF-748KG SBS</h5>
+        <h4 class="p-price">₨.150,000.00</h4>
+        <button class="buy-btn"> <a href="Refrigeratorproduct5.html">Buy Now</a></button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src="../assets/images/shop/pel 4.jpg">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="p-name">PEL Glass Door 2200 - Red Blaze</h5>
+        <h4 class="p-price">Rs.52,500.00</h4>
+        <button class="buy-btn"> <a href="Refrigeratorproduct12.html">Buy Now</a></button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src="../assets/images/shop/Avante-Green.png">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="p-name">REF 9193 WB AVANTE+</h5>
+        <h4 class="p-price">Rs.83,000.00</h4>
+        <button class="buy-btn"> <a href="Refrigeratorproduct1.html">Buy Now</a></button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src="../assets/images/shop/fw-600x549.png" alt="">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="p-name">SBS 600 INV</h5>
+        <h4 class="p-price">Rs.182,000.00</h4>
+        <button class="buy-btn"> <a href="Refrigeratorproduct3.html">Buy Now</a></button>
+      </div>
+    </div>
+  </section>
+    
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <i  class="btn-close  fa-solid fa-xmark" data-bs-dismiss="modal" aria-label="Close"></i>
+        </div>
+        <div class="modal-body">
+          <H5>  Thank you for shoping </H5>
+          <h6 style="color:#8D0E13;" > Pleace come again </h6>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Discard</button>
+         <a href="../index.html"><button type="button" class="" onclick="myfun()" >Place Order </button> </a> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <footer class="mt-5 py-5" >
+    <div class="row mx-auto container pt-5 ">
+      <div class="footerone col-lg-3 col-md-6 col-12 ">
+        <img src="../assets/images/brandlogo/Harvel electric  IN RED.png"  class="f-logo" alt="">
+        <br> <br>
+        <p>
+          Project form aptech our team made it for selling other brands things like Fans, Refrigerators & Air conditioning..
+        </p>
+        <br>
+        <h5 style="color:#8D0E13;" class="pb-2">Opening Hours</h5>
+        <p> Everyday</p> 
+        <p>11:00Am-10:00Pm</p>
+      </div>
+      <div class="footerone col-lg-3 col-md-6 col-12  ">
+        <h5  style="color:#8D0E13;" class="pb-2" >
+          Featured
+        </h5>
+        <ul class=" list-unstyled text-uppercase " >
+          <li> <a href="Shop2.html">Fans</a></li>
+         <li> <a href="Shope3.html">Air conditioning </a></li>
+         <li> <a href="Shope.html">Refrigerators</a></li>
+           <br>
+           <h5  style="color:#8D0E13;"class="" > Brandes  </h5>
+           <li> <a href="https://www.dawlance.com.pk/">Dawlance</a></li>
+           <li> <a href="https://www.haier.com/pk/?spm=pk.28276_pad.header_logo_20190530.1"> Haier </a></li>
+           <li> <a href="https://eshop.pel.com.pk/"> Pel </a></li>
+           <li> <a href="https://superasiastore.com/"> super asias </a></li>
+           <li> <a href="https://skfans.com.pk/">sk fans</a></li>
+           <li> <a href="https://royalfans.com/">royal fans</a></li>
+        </ul>
+      </div>
+      <div class="footerone col-lg-3 col-md-6 col-12  ">
+        <h5  style="color:#8D0E13;">
+          Contact us 
+        </h5>
+        <h6> Adress </h6>
+        <p> Garden Rd, Saddar Karachi, Karachi City, Sindh   </p>
+        <h6> Phone </h6>
+        <p> 031 23456789 
+          <br> 0309 2479876
+        </p>
+        <h6 > Email</h6>
+        <p>anus2201c@aptechgdn.net <br>
+          daniyal2201@captechgdn.net  </p>
+        
+      </div>
+      <div  class="footerone col-lg-3 col-md-6 col-12 " >  
+      
+          <h5  style="color:#8D0E13;">
+            Location
+          </h5>
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="275" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Saddar%20Electronics&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount</a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:275px;}</style><a href="https://www.embedgooglemap.net">google map code</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:275px;}</style></div></div>
+        </div>
+      
+  
+      
+    </div>
+    <div class="copyright mt-5">
+      <div class="row container mx-auto">
+        <!-- <div class="col-lg-3  pay col-md-6 col-12  ">
+          <i class="fa-brands fa-cc-paypal"></i>
+          <i class="fa-brands fa-google-pay"></i>
+  
+  
+        </div> -->
+        <div class="col-lg-3 col-md-6 col-12 text-nowrap text-uppercase">
+          <p>
+            <span>Harvel Electric</span> Commerce 2022. All Rights Reserved
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12  ">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/harvelelectric/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+  
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <script>
+      function myfun(){
+        alert("Your Order sucessfully placed")
+      }
+    </script>
+    
+</body>

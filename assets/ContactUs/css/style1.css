@@ -1,0 +1,147 @@
+
+
+
+#page-header{
+    background-image: url(../images/th.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    padding: 14px;
+
+}
+#page-header h2{
+    font-size: 50px;
+    color: white;
+}
+
+
+#page-header p{
+    color: white;
+    font-size: 20px;
+    padding: 14px;
+
+}
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details{
+    width: 40%;
+    padding: 100px;
+    line-height: 1%;
+}
+
+#contact-details .details span,
+#form-details form span{
+    font-size: 12px;
+}
+#contact-details .details h2,
+#form-details form h2{
+    font-size: 26px;
+    line-height: 30px;
+    padding: 20px 0;
+    
+}
+
+#contact-details .details h3{
+    font-size: 16px;
+}
+#contact-details .details li{
+    list-style: none;
+    padding: 1px 0;
+}
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+}
+
+
+#form-details form button{
+    background-color: #088178;
+    color: white;
+    padding: 10px 20px;
+}
+
+#form-details .people div img{
+   width: 65px;
+   height: 65px;
+   object-fit: cover;
+   margin-right: 15px;
+}
+
+#form-details .people div{
+    padding-bottom: 25px;
+}
+
+#form-details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#form-details .people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+}
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 13px;
+    padding: 80px;
+    border: 1px solid lightgray;
+
+}
+@media(max-width:1050px){
+    
+    #contact-details .details h2,
+    #form-details form h2{
+    font-size: 20px;
+}
+#contact-details .details li{
+    font-size: 15px;
+}
+#contact-details .details{
+    width: 100%;
+    padding: 10% ;
+    line-height: 20px;
+}
+#form-details {
+    padding: 10px;
+}
+#form-details form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+}
+
+

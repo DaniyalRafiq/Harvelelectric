@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" style="position: fixed;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/Signup/css/style2.css">
+    <title>Signup</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+   
+  <nav class="navbar bg-light-1   fixed-top navbar-expand-lg navbar-light-1 py-3  ">
+    <div class="container">
+      <img src="assets/images/brandlogo/Harvel electric  IN RED.png" class="f-logo" alt="">
+      <button class="navbar-toggler bar" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span><i class="fa-solid bar-i  fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link "  data-bs-toggle="modal" data-bs-target="#exampleModal"  href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  "  data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Shops</a>
+          </li>
+       
+          <li class="nav-item">
+            <a class="nav-link " data-bs-toggle="modal" data-bs-target="#exampleModal" href="Contact.html" >Contact Us </a>
+  
+         
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#"><button class="dm btn-1  " > Darkmode</button></a></li>
+              <li><a class="dropdown-item" href="#">    <button class="dm1 btn-2   " >Lightmode</button>     </a></li>
+         
+            </ul>
+          </li>
+
+      </div>
+    </div>
+    </li>
+  </nav>
+  
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Can't Access</h5>
+        <i  class="btn-close  fa-solid fa-xmark" data-bs-dismiss="modal" aria-label="Close"></i>
+      </div>
+      <div class="modal-body">
+        <H5>  First You Have To Make Your Account  </H5>
+        <h6 style="color:#8D0E13;" > Then You Can Access </h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <section id="f1" class="container " >
+    <div class="container-1 ">
+        <div class="form sign-in-form">
+            <div class="wrapper"  >
+                <form action="#">
+                    <h1 class="sign"  >Sign In</h1>
+                    <p class="sign" >Use Your Email And Password To Sign In</p>
+                    <input type="Email" placeholder="Email" id="email2">
+                    <input type="Password" placeholder="Password" id="pass2">
+                    <button onclick="myfun2()" type="submit" id="hi2">Sign In</button>
+                </form>
+            </div>
+        </div>
+        <div class="form sign-up-form active">
+            <div class="wrapper">
+                <form action="#">
+                    <h1>Sign Up</h1>
+                    <p>please, provide all the current info to create an account</p>
+                    <input type="Username" placeholder="Full Name" id="username">
+                    <input type="Email" placeholder="Email" id="email">
+                    <input type="Password" placeholder="Password" id="pass">
+                    <button onclick="myfun()" type="submit" id="hi1">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-left">
+                    <h1>Create account</h1>
+                    <p>or</p>
+                    <button id="signInButton">Log In</button>
+                </div>
+                <div class="overlay-right">
+                    <h1>please, Log In</h1>
+                    <p>or</p>
+                    <button id="signUpButton">Create Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/Signup/jscript/script.js"></script>
+<script>
+$('document').ready(function(){
+        $('.dm'  ).click(function (){
+           $('body').css({ 
+               "background":"#444444"
+           })
+           $('body').css({ 
+               "color":"black"
+               
+           })
+           $('.row').css({ 
+               "background":"gray"
+           })
+           $('.navbar').css({ 
+               "background":"gray"
+           })
+           $('.navbar a ').css({ 
+               "color":"white"
+           })
+           $('.modal h5').css({ 
+               "color":"black"
+           })
+           $('form h1 p  ').css({ 
+               "color":"black"
+           })
+       } )
+       $('.dm1'  ).click(function (){
+           $('body').css({ 
+               "background":"white"
+           })
+           $('body').css({ 
+               "color":"black"
+           })
+           $('.row').css({ 
+               "background":"white"
+           })
+
+           $('.navbar').css({ 
+               "background":"white"
+           })
+           $('.navbar a ').css({ 
+               "color":"black"
+           })
+    
+       })
+       } )
+     
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
